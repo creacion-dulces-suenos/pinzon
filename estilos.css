@@ -399,9 +399,16 @@ h6{
         padding: 15px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         background-color: #fff;
-        max-width: 600px;
-        width: 100%;
+        max-width: 100%; /* Asegura que las cartas no se salgan del contenedor */
+        width: 90%; /* Utiliza un ancho ajustado para móviles */
         box-sizing: border-box;
+        border-radius: 8px;
+        margin-bottom: 20px; /* Espacio entre las cartas */
+    }
+
+    #Objetivo-general .carta img {
+        width: 100%; /* Asegura que las imágenes dentro de las cartas se ajusten bien */
+        height: auto;
         border-radius: 8px;
     }
 
