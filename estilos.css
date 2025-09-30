@@ -17,7 +17,7 @@ p{
 }
 
 a{
-    color: purple;
+    color: rgb(193, 6, 6);
 
 }
 
@@ -59,7 +59,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgb(182, 17, 146);
+    color: rgb(35, 10, 125);
     font-size: 1.6em;
 }
 
@@ -84,7 +84,7 @@ header a{
 }
 
 header a:hover{
-    color: rgb(182, 17, 146);
+    color: rgb(97, 17, 182);
 }
 
 
@@ -101,7 +101,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("principal\ 2.jpg");
+    ,url("portada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;     
@@ -125,18 +125,24 @@ header a:hover{
 #Quienes-somos .container{
     text-align: center;
     padding: 10px 150px;
+    display: grid;
+    place-items: center;
 }
 
 h2{
     text-align: center;
+    padding-right: 300px;
 }
 
 #Quienes-somos h2{
     color: black;
+    text-align: center;
+    padding-right: 1px;
 }
 
 p{
     text-align: center;
+    padding-right: 5px;
 }
 
 #Quienes-somos p{
@@ -146,18 +152,19 @@ p{
 
 #Objetivo-general{
     background-color: rgb(31, 29, 29);
-    height: 600px;
+    height: 500px;
     padding: 20px;
 }
 
-#Objetivo-general h3{
-    padding: 20px;
+#Objetivo-general p{
+    padding: 1px;
 }
 
 #Objetivo-general .container{
     text-align: center;
     color: white;
-    height: 145vh;
+    height: 170vh;
+    padding: 2px 2px;
 }
 
 p{
@@ -167,10 +174,10 @@ p{
 #Objetivo-general .carta{
     background-position: center center;
     background-size: cover;
-    padding: 10px;
-    margin: 30px;
+    padding: 50px;
+    margin: 20px;
     border-radius: 15px;
-    height: 50vh;
+    height: 45vh;
 }
 
 .carta:first-child{
@@ -179,7 +186,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Comodidad\ y\ bienestar.jpg");
+    ,url("1\ objetivo.jpg");
     text-align: center;
 }
 
@@ -189,7 +196,7 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Diseño\ funcional\ y\ elegante.jpeg");
+    ,url("2\ objetivo.jpg");
     text-align: center;
 }
 
@@ -199,7 +206,27 @@ p{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Moda\ accesible\ y\ sostenible.jpg");
+    ,url("3\ objetivo.jpg");
+    text-align: center;
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("4\ objetivo.jpg");
+    text-align: center;
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("5\ objetivo.jpg");
     text-align: center;
 }
 
@@ -236,6 +263,7 @@ h5{
 
 h6{
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -253,7 +281,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Pijamas\ dama.jpg");
+    ,url("chaquetas.jpg");
     text-align: center;
 }
 
@@ -263,7 +291,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("mujeres\ embarazadas-2.jpg");
+    ,url("Vestidos.jpg");
     text-align: center;
 }
 
@@ -273,7 +301,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Pijama\ para\ niños.jpg");
+    ,url("Pantalones.jpg");
     text-align: center;
 }
 
@@ -283,7 +311,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Pijama\ para\ caballero.jpg");
+    ,url("Peluches.jpg");
     text-align: center;
 }
 
@@ -293,12 +321,13 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Pijama\ para\ familia.jpg");
+    ,url("Hogar\ 1.jpg");
     text-align: center;
 }
 
 h6{
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -309,6 +338,7 @@ h6{
 
 #principios h6{
     text-align: center;
+    justify-content: center;
 }
 
 @media (min-width: 600px){
@@ -339,14 +369,14 @@ h6{
     h2{
         padding: 0px 20px;
         text-align: right;
-        margin-right: 13%;
+        margin-right: 10%;
         margin-bottom: 20px;
         margin-top: 50px;
     }
 
     #Quienes-somos p{
         text-align: justify;
-        padding-left: 50px;
+        padding-left: 30px;
         margin-bottom: 10%;
         margin-right: 10%;
     }
@@ -367,7 +397,7 @@ h6{
     }
 
     #Quienes-somos .img-container{
-        background-image: url("Quienes\ somos.jpg");
+        background-image: url("Quienes\ somos\ 2.jpg");
         background-size: cover;
         background-position: center center;
         height: 400px;
@@ -381,19 +411,13 @@ h6{
 
     #Objetivo-general p{
         display: block;
-    }
-
-    #Objetivo-general h3{
-        font-size: 2em;
-    }
-
-    #Objetivo-general h3{
+        font-size: 1.2em;
         margin-top: 0;
     }
 
     #Objetivo-general .carta{
-        padding: 10px;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        padding: 0px;
+        box-shadow: 1px 1px 0px rgba(0,0,0,0.5);
     }
 
 
@@ -402,7 +426,7 @@ h6{
         text-align: right;
         margin-right: 13%;
         margin-bottom: 2px;
-        padding: 10px;
+        padding: 5px;
     }
 
     h4{
@@ -442,7 +466,7 @@ h6{
     }
 
     #Mision{
-        background-image: url("Mision\ 1.jpg");
+        background-image: url("mision\ 2.jpg");
         background-repeat: no-repeat;
         background-size: 500px 300px;
         background-position: calc(100vw - 100px) 100px;
@@ -465,17 +489,18 @@ h6{
 
     #Vision h5{
         text-align: right;
-        padding: 0px 20px;
-        margin-right: 10%;
-        margin-bottom: 20px;
-        margin-top: 30px;
+        padding: 0px 50px;
+        margin-right: 8%;
+        margin-bottom: 10px;
+        margin-top: 0px;
     }
 
     #Vision p{
         text-align: right;
         text-align: justify;
-        margin-bottom: 1%;
-        margin-left: 60%;
+        margin-bottom: 2%;
+        margin-left: 50%;
+
     }
 
     #Vision .contenido{
@@ -484,7 +509,7 @@ h6{
     }
 
     #Vision{
-        background-image: url("Vision\ 1.jpg");
+        background-image: url("vision.webp");
         background-repeat: no-repeat;
         background-size: 550px 350px;
         justify-content: space-evenly;
@@ -504,6 +529,7 @@ h6{
     
     #principios h6{
         margin-top: 0;
+        justify-content: center;
     }
     
     #principios .carta-2{
@@ -521,10 +547,11 @@ h6{
 }
 
 #principios .container{
-    padding: 80px 50px;
+    padding: 70px 10px;
 }
 
 #principios h6{
+    justify-content: center;
     margin-top: 0;
     font-size: 2em;
 }
@@ -536,7 +563,7 @@ h6{
 #principios .carta-2{
     background-position: center center;
     background-size: cover;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border-radius: 15px;
 }
@@ -547,7 +574,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Principio\ 1.jpg");
+    ,url("principio\ 11.jpeg");
     
 }
 
@@ -557,7 +584,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Diseño\ que\ abraza\ cada\ etapa\ de\ la\ vida.jpg");
+    ,url("principio\ 12.jpg");
 }
 
 .carta-2:nth-child(3){
@@ -566,7 +593,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Principio\ 3.jpg");
+    ,url("principio\ 13.jpg");
 }
 
 .carta-2:nth-child(4){
@@ -575,7 +602,7 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Principio\ 4.jpg");
+    ,url("principio\ 14.jpg");
 }
 
 .carta-2:nth-child(5){
@@ -584,10 +611,8 @@ h6{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("Principio\ 5.jpg");
+    ,url("principio\ 15.jpg");
 }
-
-
 
 
 
